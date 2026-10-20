@@ -1,0 +1,29 @@
+algoritmo "FuncoesDeConversao"
+
+var
+numero: inteiro
+texto: caractere
+
+inicio
+
+// Número para caractere
+escreval("Número -> Caractere")
+numero <- 7
+texto <- numpcarac(numero)
+escreval("Número: ", numero)
+escreval("Número convertido para caractere: ", texto)
+
+// Caractere para número
+escreval("Caractere -> Número")
+texto <- "15"
+numero <- caracpnum(texto)
+escreval("Caractere: ", texto)
+escreval("Caractere convertido para número: ", numero)
+
+// Utilizando a conversão em uma operação
+escreval("Conversão em operação")
+numero <- caracpnum("10")
+numero <- numero + 5
+escreval("Resultado apos converter e somar 5: ", numero)
+
+fimalgoritmo

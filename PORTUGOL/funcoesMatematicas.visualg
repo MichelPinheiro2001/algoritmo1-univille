@@ -1,0 +1,19 @@
+algoritmo "FuncoesMatematicas"
+
+var
+resultado: real
+
+inicio
+resultado <- 7.5
+
+escreval("Valor absoluto de ", resultado, ": ", abs(resultado))
+escreval("Quadrado de ", resultado, ": ", quad(resultado))
+escreval("Raiz quadrada de ", resultado, ": ", raizq(resultado))
+escreval("Seno de ", resultado,": ", sen(resultado))
+escreval("Cosseno de ", resultado, ": ", cos(resultado))
+escreval("Tangente de ", resultado, ": ", tan(resultado))
+escreval("Exponencial de ", resultado, ": ", exp(resultado, 2))
+escreval("Logaritmo de ", resultado, ": ", log(resultado))
+escreval("Valor de PI: ", pi)
+
+fimalgoritmo
