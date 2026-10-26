@@ -1,0 +1,17 @@
+algoritmo "Atribuicao"
+
+var
+  variavel: inteiro
+
+inicio
+  // Atribuição simples
+  variavel <- 1
+  escreval("Atribuição de 1: ", variavel)
+
+  // Atribuição composta
+  // Incremento
+  variavel <- variavel + 1
+  escreval("Incremento de 1: ", variavel)
+
+fimalgoritmo
+
